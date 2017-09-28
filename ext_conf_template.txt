@@ -1,0 +1,5 @@
+# cat=basic/enable; type=string; label=KiyOh connector code
+kiyoh.connectorCode =
+
+# cat=basic/enable; type=string; label=KiyOh review url
+kiyoh.reviewUrl = https://www.kiyoh.nl/xml/recent_company_reviews.xml
