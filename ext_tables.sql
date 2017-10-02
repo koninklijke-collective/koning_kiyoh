@@ -39,6 +39,7 @@ CREATE TABLE tx_koningkiyoh_domain_model_review (
     score int(11) DEFAULT '0' NOT NULL,
     positive_comment text,
     negative_comment text,
+    reaction text,
     recommendation tinyint(4) DEFAULT '0' NOT NULL,
     image text,
 

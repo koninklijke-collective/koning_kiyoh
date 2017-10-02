@@ -40,6 +40,9 @@
             <trans-unit id="tx_koningkiyoh_domain_model_review.negative_comment">
                 <source>Negative comment</source>
             </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.reaction">
+                <source>Reaction</source>
+            </trans-unit>
             <trans-unit id="tx_koningkiyoh_domain_model_review.recommendation">
                 <source>Recommendation</source>
             </trans-unit>

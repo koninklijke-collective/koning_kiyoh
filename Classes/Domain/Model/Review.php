@@ -42,6 +42,11 @@ class Review extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * @var string
      */
+    protected $reaction;
+
+    /**
+     * @var string
+     */
     protected $image;
 
     /**
@@ -149,6 +154,23 @@ class Review extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setNegativeComment($negativeComment)
     {
         $this->negativeComment = $negativeComment;
+    }
+
+    /**
+     * @return string
+     */
+    public function getReaction()
+    {
+        return $this->reaction;
+    }
+
+    /**
+     * @param string $reaction
+     * @return void
+     */
+    public function setReaction($reaction)
+    {
+        $this->reaction = $reaction;
     }
 
     /**

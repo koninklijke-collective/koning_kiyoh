@@ -19,11 +19,11 @@ return [
         'iconfile' => 'EXT:koning_kiyoh/Resources/Public/Icons/tx_koningkiyoh_domain_model_review.png',
     ],
     'interface' => [
-        'showRecordFieldList' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, recommendation, image, company'
+        'showRecordFieldList' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, company'
     ],
     'types' => [
         0 => [
-            'showitem' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, recommendation, image, company'
+            'showitem' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, company'
         ]
     ],
     'columns' => [
@@ -71,6 +71,13 @@ return [
         'negative_comment' => [
             'exclude' => 0,
             'label' => 'LLL:EXT:koning_kiyoh/Resources/Private/Language/locallang_be.xlf:tx_koningkiyoh_domain_model_review.negative_comment',
+            'config' => [
+                'type' => 'text'
+            ]
+        ],
+        'reaction' => [
+            'exclude' => 0,
+            'label' => 'LLL:EXT:koning_kiyoh/Resources/Private/Language/locallang_be.xlf:tx_koningkiyoh_domain_model_review.reaction',
             'config' => [
                 'type' => 'text'
             ]

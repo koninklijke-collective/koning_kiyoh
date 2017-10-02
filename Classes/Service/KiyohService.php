@@ -189,7 +189,8 @@ class KiyohService
             'positive_comment' => isset($response->positive) ? (string)$response->positive : '',
             'negative_comment' => isset($response->negative) ? (string)$response->negative : '',
             'recommendation' => isset($response->recommendation) && (string)$response->recommendation === 'Ja' ? 1 : 0,
-            'image' => isset($response->image) ? (string)$response->image : ''
+            'image' => isset($response->image) ? (string)$response->image : '',
+            'reaction' => isset($response->reaction) ? (string)$response->reaction : '',
         ];
     }
 
