@@ -177,8 +177,7 @@ class KiyohService
     {
         $date = 0;
         if (isset($response->customer->date)) {
-            $date = new \DateTime((string)$response->customer->date);
-            $date = $date->getTimestamp();
+            $date = (new \DateTime((string)$response->customer->date))->getTimestamp();
         }
 
         return [
