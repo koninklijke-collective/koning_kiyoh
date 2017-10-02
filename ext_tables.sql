@@ -17,7 +17,7 @@ CREATE TABLE tx_koningkiyoh_domain_model_company (
 
     PRIMARY KEY (uid),
     KEY parent (pid),
-    INDEX remote_identifier (remote_identifier),
+    INDEX remote_identifier (remote_identifier)
 );
 
 #
@@ -44,5 +44,5 @@ CREATE TABLE tx_koningkiyoh_domain_model_review (
 
     PRIMARY KEY (uid),
     KEY parent (pid),
-    INDEX remote_identifier (remote_identifier),
+    INDEX remote_identifier (remote_identifier)
 );

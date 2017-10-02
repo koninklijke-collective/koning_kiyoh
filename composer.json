@@ -1,0 +1,30 @@
+{
+  "name": "koninklijke-collective/koning-kiyoh",
+  "description": "TYPO3 Extension: Saves KiyOh reviews as TYPO3 records",
+  "type": "typo3-cms-extension",
+
+  "keywords": [
+    "TYPO3",
+    "CMS",
+    "KiyOh",
+    "Reviews"
+  ],
+  "homepage": "https://github.com/koninklijke-collective/koning_kiyoh.git",
+  "license": "LGPL-3.0+",
+
+  "autoload": {
+    "psr-4": {
+      "KonkinklijkeCollective\\KoningKiyoh\\": "Classes/"
+    }
+  },
+
+  "version": "1.0.0",
+
+  "authors": [
+    {
+      "name": "Jesper Paardekooper",
+      "email": "j.paardekooper@develement.nl",
+      "homepage": "https://www.develement.nl"
+    }
+  ]
+}
