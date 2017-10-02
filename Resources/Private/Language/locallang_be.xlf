@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2014-10-23T20:50:06Z" product-name="koning_kiyoh">
+        <header/>
+        <body>
+            <trans-unit id="tx_koningkiyoh_domain_model_company">
+                <source>Company</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_company.name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_company.remote_identifier">
+                <source>Remote identifier</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_company.url">
+                <source>Url</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_company.reviews">
+                <source>Reviews</source>
+            </trans-unit>
+
+            <trans-unit id="tx_koningkiyoh_domain_model_review">
+                <source>Review</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.remote_identifier">
+                <source>Remote identifier</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.review_date">
+                <source>Review date</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.score">
+                <source>Score</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.positive_comment">
+                <source>Positive comment</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.negative_comment">
+                <source>Negative comment</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.recommendation">
+                <source>Recommendation</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.image">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.company">
+                <source>Company</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
