@@ -42,6 +42,7 @@ CREATE TABLE tx_koningkiyoh_domain_model_review (
     reaction text,
     recommendation tinyint(4) DEFAULT '0' NOT NULL,
     image text,
+    fallback_image int(11) DEFAULT '0' NOT NULL,
 
     PRIMARY KEY (uid),
     KEY parent (pid),

@@ -50,6 +50,12 @@ class Review extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $image;
 
     /**
+     * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
+     * @lazy
+     */
+    protected $fallbackImage;
+
+    /**
      * @var int
      */
     protected $remoteIdentifier;
@@ -188,6 +194,23 @@ class Review extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setImage($image)
     {
         $this->image = $image;
+    }
+
+    /**
+     * @return \TYPO3\CMS\Extbase\Domain\Model\FileReference
+     */
+    public function getFallbackImage()
+    {
+        return $this->fallbackImage;
+    }
+
+    /**
+     * @param \TYPO3\CMS\Extbase\Domain\Model\FileReference $fallbackImage
+     * @return void
+     */
+    public function setFallbackImage($fallbackImage)
+    {
+        $this->fallbackImage = $fallbackImage;
     }
 
     /**

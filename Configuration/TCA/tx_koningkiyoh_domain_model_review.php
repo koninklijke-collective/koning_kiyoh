@@ -19,11 +19,11 @@ return [
         'iconfile' => 'EXT:koning_kiyoh/Resources/Public/Icons/tx_koningkiyoh_domain_model_review.png',
     ],
     'interface' => [
-        'showRecordFieldList' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, company'
+        'showRecordFieldList' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, fallback_image, company'
     ],
     'types' => [
         0 => [
-            'showitem' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, company'
+            'showitem' => 'remote_identifier, name, review_date, score, positive_comment, negative_comment, reaction, recommendation, image, fallback_image, company'
         ]
     ],
     'columns' => [
@@ -95,6 +95,21 @@ return [
             'config' => [
                 'type' => 'input'
             ]
+        ],
+        'fallback_image' => [
+            'exclude' => 0,
+            'label' => 'LLL:EXT:koning_kiyoh/Resources/Private/Language/locallang_be.xlf:tx_koningkiyoh_domain_model_review.fallback_image',
+            'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
+                'fallback_image',
+                [
+                    'appearance' => [
+                        'createNewRelationLinkTitle' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:media.addFileReference'
+                    ],
+                    'minitems' => 0,
+                    'maxitems' => 1,
+                ],
+                $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext']
+            ),
         ],
         'company' => [
             'exclude' => 0,

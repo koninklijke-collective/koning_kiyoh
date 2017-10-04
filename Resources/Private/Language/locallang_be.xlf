@@ -49,6 +49,9 @@
             <trans-unit id="tx_koningkiyoh_domain_model_review.image">
                 <source>Image</source>
             </trans-unit>
+            <trans-unit id="tx_koningkiyoh_domain_model_review.fallback_image">
+                <source>Fallback image</source>
+            </trans-unit>
             <trans-unit id="tx_koningkiyoh_domain_model_review.company">
                 <source>Company</source>
             </trans-unit>
